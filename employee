@@ -1,0 +1,79 @@
+/*************************  EMPLOYEE CLASS ******************************/
+public class Employee {
+    
+    private String name;
+    private double baseSalary;
+    private int yearsOfExperience;
+    private int yearsAtCompany;
+    private int weeksVacation;
+   
+    public Employee(){
+        name = "";
+        baseSalary = 75000.0;
+        yearsOfExperience = 0;
+        yearsAtCompany = 0;
+        weeksVacation = 0;
+    }
+    
+    public Employee(String name, double baseSalary, int yearsOfExperience, int yearsAtCompany, int weeksVacation){
+        this.name = name;
+        this.baseSalary = baseSalary;
+        this.yearsOfExperience = yearsOfExperience;
+        this.yearsAtCompany = yearsAtCompany;
+        this.weeksVacation = weeksVacation;
+    }
+   
+    public String getName() {
+        return name;
+    }
+   
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+    
+    public void setBaseSalary(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+    
+    public int getYearsOfExperience() {
+        return yearsOfExperience;
+    }
+   
+    public void setYearsOfExperience(int yearsOfExperience) {
+        this.yearsOfExperience = yearsOfExperience;
+    }
+   
+    public int getYearsAtCompany() {
+        return yearsAtCompany;
+    }
+    
+    public void setYearsAtCompany(int yearsAtCompany) {
+        this.yearsAtCompany = yearsAtCompany;
+    }
+   
+    public void setWeeksVacation(int weeksVacation) {
+        this.weeksVacation = weeksVacation;
+    }
+   
+    public int getWeeksVacation() {
+        return weeksVacation;
+    }
+  
+    public String toString(){
+        return "Name: " + name + "%nSalary: " + baseSalary + "%nMoto: " + motto() + "%nVacation days: " + weeksVacation * 7 + "%n";
+    }
+ 
+    public String motto() {
+        return "We value our employees";
+    }
+    public static void main(String[] args) {
+        Employee e1 = new Employee("Josh", 75000.0, 1, 1, 1);
+        Engineer e3 = new Engineer("Gertrude", 6, 3);
+        System.out.printf(e1.toString());
+        System.out.printf(e3.toString());
+    }
+}
