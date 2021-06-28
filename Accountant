@@ -1,0 +1,22 @@
+public class Accountant {
+
+    public Accountant(String name){
+
+    }
+
+    public TechnicalLead getTeamSupported(){
+
+    }
+
+    public void supportTeam(TechnicalLead lead){
+
+    }
+
+    public boolean approveBonus(double bonus){
+        
+    }
+
+    public String employeeStatus(){
+        
+    }
+}
