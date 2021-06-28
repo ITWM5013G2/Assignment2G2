@@ -1,0 +1,23 @@
+public class BusinessLead {
+
+    public BusinessLead(String name){
+
+    }
+
+    public boolean hasHeadCount(){
+
+    }
+
+    public boolean addReport(Accountant e, TechnicalLead supportTeam){
+
+    }
+
+    public boolean requestBonus(Employee e, double bonus){
+        
+    }
+
+    public boolean approveBonus(Employee e, double bonus){
+        
+    }
+}
+
