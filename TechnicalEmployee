@@ -1,0 +1,14 @@
+public class TechnicalEmployee extends Employee {
+
+    private double baseSalary = 75000;
+
+    public TechnicalEmployee(String name){
+        this.name = name;
+        this.baseSalary = baseSalary;
+    }
+
+    public String employeeStatus(){
+        return this.
+    }
+
+}
