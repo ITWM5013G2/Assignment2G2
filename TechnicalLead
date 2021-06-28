@@ -1,0 +1,27 @@
+public class TechnicalLead {
+
+    public TechnicalLead(String name){
+
+    }
+
+    public boolean hasHeadCount(){
+
+    }
+
+    public boolean addReport(SoftwareEngineer e){
+
+    }
+
+    public boolean approveCheckIn(SoftwareEngineer e){
+
+    }
+
+    public boolean requestBonus(Employee e, double bonus){
+        
+    }
+
+    public String getTeamStatus(){
+        
+    }
+}
+
