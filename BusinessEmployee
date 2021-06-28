@@ -1,0 +1,14 @@
+public class BusinessEmployee {
+
+    public BusinessEmployee(String name){
+
+    }
+
+    public double getBonusBudget(){
+        
+    }
+
+    public String employeeStatus(){
+        
+    }
+}
