@@ -1,0 +1,23 @@
+public class SoftwareEngineer {
+
+    public SoftwareEngineer (String name){
+
+    }
+
+    public boolean getCodeAccess(){
+
+    }
+
+    public void setCodeAccess(boolean access){
+
+    }
+
+    public int getSuccessfulCheckIns(){
+        
+    }
+
+    public boolean checkInCode(){
+        
+    }
+}
+
